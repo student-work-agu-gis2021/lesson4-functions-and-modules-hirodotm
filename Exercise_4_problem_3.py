@@ -76,6 +76,12 @@ temp_data =  [19, 21, 21, 21, 23, 23, 23, 21, 19, 21, 19, 21, 23, 27, 27, 28, 30
 
 # YOUR CODE HERE
 
+#import 2 functions from temp_functions
+from temp_functions import fahr_to_celsius
+from temp_functions import temp_classifier
+
+
+
 # **TIP**: You might want to consider using a [**count()** function](https://www.tutorialspoint.com/python3/list_count.htm) OR a for loop for this.
 
 # ### Problem 3 tests
