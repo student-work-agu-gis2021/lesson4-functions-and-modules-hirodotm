@@ -4,7 +4,7 @@
 def fahr_to_celsius(temp_fahrenheit):
 #input: temperature in fahrenheit
 #output: temperature in celsius from fahrenheit by function
-  converted_temp=(temp_fahrenheit-32)*5/9
+  converted_temp=(temp_fahrenheit-32)/1.8
   return converted_temp
 
 #define temp_classifier
