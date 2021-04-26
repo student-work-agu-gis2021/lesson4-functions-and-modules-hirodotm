@@ -66,6 +66,24 @@ temp_data =  [19, 21, 21, 21, 23, 23, 23, 21, 19, 21, 19, 21, 23, 27, 27, 28, 30
 
 # YOUR CODE HERE
 
+#import 2 functions from temp_functions
+from temp_functions import fahr_to_celsius
+from temp_functions import temp_classifier
+
+#make new list to include temperature class numbers
+temp_classes=[]
+
+#devide temp_data to class
+for temp in temp_data:
+  #make valiable to store the degree which is converted to celsius by function fahr_to_celsius
+  temp_celsius=fahr_to_celsius(temp)
+  #devide to the class by function temp_classifier 
+  temp_class=temp_classifier(temp_celsius)
+  #add temp_class to temp_classes
+  temp_classes.append(temp_class)
+
+  
+
 # #### Part 2 (continues)
 # 
 # 6. Calculate how many temperatures there are in each temperature class:
@@ -76,12 +94,8 @@ temp_data =  [19, 21, 21, 21, 23, 23, 23, 21, 19, 21, 19, 21, 23, 27, 27, 28, 30
 
 # YOUR CODE HERE
 
-#import 2 functions from temp_functions
-from temp_functions import fahr_to_celsius
-from temp_functions import temp_classifier
 
-#make new list to include temperature class numbers
-temp_classes=[]
+
 
 # **TIP**: You might want to consider using a [**count()** function](https://www.tutorialspoint.com/python3/list_count.htm) OR a for loop for this.
 
