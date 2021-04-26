@@ -120,7 +120,7 @@ print(zeros,ones,twos,threes)
 # - If you have any comments and concerns at this point, you can write them below:
 
 # YOUR ANSWER HERE. Write your answer as comments (with #)
-#
+#Yes, I commented my code and used the required variable names.
 #
 #
 #
