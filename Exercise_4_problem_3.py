@@ -80,7 +80,8 @@ temp_data =  [19, 21, 21, 21, 23, 23, 23, 21, 19, 21, 19, 21, 23, 27, 27, 28, 30
 from temp_functions import fahr_to_celsius
 from temp_functions import temp_classifier
 
-
+#make new list to include temperature class numbers
+temp_classes=[]
 
 # **TIP**: You might want to consider using a [**count()** function](https://www.tutorialspoint.com/python3/list_count.htm) OR a for loop for this.
 
