@@ -84,6 +84,9 @@ print("ok :)")
 
 # YOUR ANSWER HERE. Write your answer as comments
 #
+#variable names are correct.
+#enough comments.
+#function has an informativve dosctring.
 #
 # YOUR ANSWER ENDS HERE
 
