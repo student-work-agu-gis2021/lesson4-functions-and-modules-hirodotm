@@ -20,6 +20,11 @@
 
 # YOUR CODE HERE
 
+#define fahr_to_celsius
+def fahr_to_celsius(temp_fahrenheit):
+  converted_temp=(temp_fahrenheit-32)*5/9
+  return converted_temp
+
 # ### Problem 1 tests
 # 
 # Check that the function produces correct answers for:
@@ -27,7 +32,10 @@
 # 2. What about 71° Fahrenheit in Celsius?
 
 # ### Check your code
-# 
+
+#test fahr_to_celsius
+print(fahr_to_celsius(48))
+print(fahr_to_celsius(71))
 # - Make sure you used the given variable names
 # - Check that you have added necessary comments to your code
 # - Check that your function has a docstring that describes what it does
