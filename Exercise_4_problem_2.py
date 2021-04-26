@@ -27,9 +27,9 @@
 # YOUR CODE HERE to define temp_classifier
 
 #define temp_classifier
+def temp_classifier(temp_celsius):
 #input: temperatures in celsius
 #output: number of class which is devided by given rules
-def temp_classifier(temp_celsius):
   if(temp_celsius<-2):
    return 0
   elif((temp_celsius>=-2)and(temp_celsius<2)):

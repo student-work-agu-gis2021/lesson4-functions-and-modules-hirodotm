@@ -21,9 +21,9 @@
 # YOUR CODE HERE
 
 #define fahr_to_celsius
+def fahr_to_celsius(temp_fahrenheit):
 #input: temperature in fahrenheit
 #output: temperature in celsius from fahrenheit by function
-def fahr_to_celsius(temp_fahrenheit):
   converted_temp=(temp_fahrenheit-32)*5/9
   return converted_temp
 
