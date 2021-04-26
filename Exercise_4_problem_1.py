@@ -50,10 +50,8 @@ print(fahr_to_celsius(71))
 # Write your answers below:
 
 # YOUR ANSWER HERE. Write your answers as comments
-#
-#
-#
-#
+#1.Yes
+#2.I think it will be easier to do some similally many times such as calculate or do something and make the code easier to see.
 
 # #### Done!
 # 
